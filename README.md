@@ -21,5 +21,5 @@ $ docker run \
 Or using x11docker:
 
 ```terminal
-$ x11docker -m dmitryrck/zeal
+$ x11docker -m dmitryrck/zeal zeal
 ```
