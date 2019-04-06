@@ -5,7 +5,7 @@ This is a docker image for [zealdocs.org](https://zealdocs.org/).
 # Running
 
 ```terminal
-% docker run \
+$ docker run \
     --detach=false \
     -it \
     --rm \
@@ -16,4 +16,10 @@ This is a docker image for [zealdocs.org](https://zealdocs.org/).
     -v zeal_docs:/${USER} \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     dmitryrck/zeal
+```
+
+Or using x11docker:
+
+```terminal
+$ x11docker -m dmitryrck/zeal
 ```
